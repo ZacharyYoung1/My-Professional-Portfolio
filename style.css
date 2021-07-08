@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+body {
+background-color: whitesmoke;
+margin: 0px;
+padding: 0px;
+}
+
+ul { 
+list-style: none;
+
+}
+
+a {
+text-decoration: none;
+}
+
+section {
+    width: 100%;
+    height: 95vh;
+    background-image: url(./Assets/Background-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+}
+
+nav ul{
+display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 600;
+}
+.logo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 22px;
+}
+
+.active {
+    font-weight: bold;
+    color: #2d2d2d;
+}
+
+
+
+.textContainer p:nth-child(1){
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+color: darkgray;
+font-size: 22px;
+
+}
+
+.textContainer p:nth-child(2){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 35px;
+    }
+
+.textContainer p:nth-child(3){
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        color: darkgray;
+        font-size: 22px;
+        line-height: 30px;}
+
+.textContainer p{
+line-height: 0px;
+margin: 45px 0px 25px;
+}
+.textContainer {
+    position: absolute;
+    left: 13%;
+    top: 40%;
+    transform: translate(-13%, -40%);
+}
+.textContainer button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    outline:none;
+    margin-top: 0px 10px;
+}
+button:active{
+    transform: scale(1.1);
+}
+.background { 
+    height: 560px;
+    width: 560px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.aboutContainer {
+    width: 80%;
+    height: 350px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 8% auto 20px auto;
+    
+}
